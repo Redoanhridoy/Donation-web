@@ -281,7 +281,41 @@
         align-items: center;
         justify-content: center;
         display: flex;
+        padding: 50px 0;
+
     }
-    .subscribe .subscribers{
-       
+    .subscribe .subscribers .box{
+       height: 200px;
+       width: 809px;
+       background-color: #FFF4D6;
+       padding-top: 80px;
+
+    }
+    .subscribe .subscribers .box .input-box{
+        height: 50px;
+        width: 500px;
+        margin-left: 150px;
+        border-radius: 10px;
+        border: none;
+    }
+    .subscribe .subscribers .box ::placeholder{
+        text-align: left;
+        padding-left: 10px;
+
+    }
+    .end-part{
+        height: 200px 0;
+        background-color: black;
+        padding: 50px 0;
+        margin-top: 50px;
+    }
+    .end-part .foot{
+        color: #FAFAFA;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .foot h1{
+        color: #FF5959;
+        padding-right: 5px;
     }
